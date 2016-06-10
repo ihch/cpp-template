@@ -1,2 +1,1 @@
-# cpp-tmplate
 # cpp-template
