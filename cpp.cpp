@@ -15,6 +15,8 @@ typedef deque<int> dqi;
 #define SEC second
 #define sz(obj) ((int)(obj).size())
 
+inline int gcd(int a, int b){if (a == 0) return (b); gcd(b % a, b);}
+
 const int INF = 999999999;
 const int dx[] = {0, 1, 0, -1}, dy[] = {1, 0, -1, 0};
 
