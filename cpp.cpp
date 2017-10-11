@@ -27,7 +27,7 @@ typedef deque<int> dqi;
 #define sec second
 #define SEC sec
 #define sz(obj) ((int)(obj).size())
-#define all(v) (v).begin(), (v).end()
+#define all(v) begin(v), end(v)
 #define ALL(v) all(v)
 
 const int INF = 999999999;
