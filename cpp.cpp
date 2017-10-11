@@ -10,11 +10,11 @@ typedef queue<int> qi;
 typedef stack<int> si;
 typedef deque<int> dqi;
 
-#define reps(i, a, b) for (int i = a; i < b; ++i)
+#define reps(i, a, b) for (int i = (a); i < (int)(b); ++i)
 #define rep(i, n) reps(i, 0, n)
 #define REPS(i, a, b) reps(i, a, b)
 #define REP(i, n) rep(i, n)
-#define deps(i, a, b) for (int i = a; i >= b; --i)
+#define deps(i, a, b) for (int i = (a); i >= (int)(b); --i)
 #define dep(i, n) deps(i, n, 0)
 #define DEPS(i, a, b) deps(i, a, b)
 #define DEP(i, n) dep(i, n)
@@ -27,7 +27,7 @@ typedef deque<int> dqi;
 #define sec second
 #define SEC sec
 #define sz(obj) ((int)(obj).size())
-#define all(v) (v).begin(), (v).end()
+#define all(v) begin(v), end(v)
 #define ALL(v) all(v)
 
 const int INF = 999999999;
